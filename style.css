@@ -1,0 +1,30 @@
+body {
+  width: 80%;
+  margin: 2em auto 0 auto;
+}
+
+.images {
+  column-count: 3;
+}
+
+img {
+  width: 100%;
+}
+
+.image-hover:hover {
+  transform: scale(1.5);
+  border: 1px solid black;
+  transition: all 0.3s ease;
+}
+
+.gif {
+  margin-left: 5rem;
+  width: 200%;
+}
+
+@media (min-width: 1020px) {
+  .gif {
+    margin-left: 25rem;
+    width: 200%;
+  }
+}
